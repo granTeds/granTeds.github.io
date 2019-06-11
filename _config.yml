@@ -2,7 +2,7 @@
 title:          GranTEDs
 description:    "Granny's dreams with her Teddy"
 baseurl:        ""
-url:            ""
+url:            "https://granteds.github.io/"
 
 # Google Analytics
 google_analytics: 
