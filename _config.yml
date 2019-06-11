@@ -1,0 +1,38 @@
+# Site settings
+title:          GranTEDs
+description:    "Granny's dreams with her Teddy"
+baseurl:        ""
+url:            ""
+
+# Google Analytics
+google_analytics: 
+
+# Author
+author:
+  name:         Granny and Teddy
+  url:          https://github.com/granTeds
+  email:        granny.n.teddy@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
